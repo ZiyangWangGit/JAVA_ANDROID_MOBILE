@@ -15,7 +15,8 @@
         android:text="@string/instructions"
         android:textAlignment="viewStart"
         android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:ignore="VisualLintOverlap" />
 
     <TextView
         android:id="@+id/cookTimeTextView"
@@ -26,7 +27,8 @@
         android:text="@string/timer"
         android:textAlignment="viewStart"
         android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:ignore="VisualLintOverlap" />
 
 
     <LinearLayout
@@ -41,7 +43,8 @@
             android:layout_height="wrap_content"
             android:text="@string/adjust_the_timer"
             android:textSize="16sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
 
         <SeekBar
             android:id="@+id/blueSeekBar"
@@ -53,6 +56,7 @@
     </LinearLayout>
 
     <LinearLayout
+        style="?android:attr/buttonBarStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -60,6 +64,7 @@
 
         <Button
             android:id="@+id/startButton"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
@@ -67,6 +72,7 @@
 
         <Button
             android:id="@+id/pauseButton"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
@@ -74,6 +80,7 @@
 
         <Button
             android:id="@+id/resetButton"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/reset" />
