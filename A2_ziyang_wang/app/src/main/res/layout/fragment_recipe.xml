@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecipeFragment">
+
+
+    <TextView
+        android:id="@+id/recipeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="20sp"
+        android:text="@string/recipe_title"
+        android:textAlignment="viewStart"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/parmesanChickenView"
+        android:layout_width="40dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="62sp"
+        android:layout_marginStart="15sp"
+        android:contentDescription="@string/parmesan_chicken_picture"
+        android:src="@drawable/parmesan_chicken" />
+
+    <TextView
+        android:id="@+id/chickenRecipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65sp"
+        android:layout_marginStart="60sp"
+        android:text="@string/creamy_garlic_parmesan_chicken"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/parmensanChickenDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="320sp"
+        android:layout_marginTop="100sp"
+        android:text="@string/detail"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/parmensanChickenTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220sp"
+        android:layout_marginTop="100sp"
+        android:text="@string/timer"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+
+    <ImageView
+        android:id="@+id/lentilSoupView"
+        android:layout_width="40dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="162sp"
+        android:layout_marginStart="15sp"
+        android:contentDescription="@string/lentil_soup_picture"
+        android:src="@drawable/lentil_soup" />
+
+    <TextView
+        android:id="@+id/soupRecipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="165sp"
+        android:layout_marginStart="60sp"
+        android:text="@string/vegan_lentil_soup"
+        android:textAlignment="viewStart"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/lentilSoupDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="320sp"
+        android:layout_marginTop="200sp"
+        android:text="@string/detail"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/lentilSoupTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220sp"
+        android:layout_marginTop="200sp"
+        android:text="@string/timer"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+
+    <ImageView
+        android:id="@+id/redChiliView"
+        android:layout_width="40dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="262sp"
+        android:layout_marginStart="15sp"
+        android:contentDescription="@string/red_chili_picture"
+        android:src="@drawable/red_chili" />
+
+    <TextView
+        android:id="@+id/redCurryRecipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="265sp"
+        android:layout_marginStart="60sp"
+        android:text="@string/spicy_thai_red_curry"
+        android:textAlignment="viewStart"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/redCurryDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="320sp"
+        android:layout_marginTop="300sp"
+        android:text="@string/detail"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/redCurryTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220sp"
+        android:layout_marginTop="300sp"
+        android:text="@string/timer"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+
+    <ImageView
+        android:id="@+id/beefTacoView"
+        android:layout_width="40dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="362sp"
+        android:layout_marginStart="15sp"
+        android:contentDescription="@string/beef_taco_picture"
+        android:src="@drawable/beef_taco" />
+
+    <TextView
+        android:id="@+id/beefTacoRecipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="365sp"
+        android:layout_marginStart="60sp"
+        android:text="@string/tex_mex_beef_tacos"
+        android:textAlignment="viewStart"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/beefTacoDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="320sp"
+        android:layout_marginTop="400sp"
+        android:text="@string/detail"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/beefTacoTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220sp"
+        android:layout_marginTop="400sp"
+        android:text="@string/timer"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+
+
+</FrameLayout>
