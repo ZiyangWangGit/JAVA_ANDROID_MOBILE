@@ -114,6 +114,14 @@
     <string name="start">Start</string>
     <string name="pause">Pause</string>
     <string name="reset">Reset</string>
+    <string name="_00_00">00:00</string>
+    <string name="ease_of_use">Ease of use:</string>
+    <string name="recipe">Recipe:</string>
+    <string name="taste">Taste:</string>
+    <string name="review">Review:</string>
+    <string name="enter_your_text_here">Enter your review here</string>
+    <string name="submit">Submit</string>
+    <string name="share_my_review_with_community">Share my review with community</string>
 
 
 </resources>
