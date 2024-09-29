@@ -7,21 +7,30 @@ This Android app is designed for culinary enthusiasts and home cooks. It feature
 1. **Home Fragment**:
    - Displays welcome content, including instructions and featured recipes or cooking tips.
    - Provides initial user interaction and navigation through the app.
+   - ![0c840cae15b3f03d012bbd20fc4d820](https://github.com/user-attachments/assets/dcbb6692-c140-43f9-9df7-528b1d85bb2d)
+
   
 2. **Recipe Fragment**:
    - Lists a variety of recipes (e.g., Red Curry, Beef Tacos, Parmesan Chicken).
    - Users can click on a recipe to view its details, including ingredients and cooking instructions.
    - Users can also start timers tailored to each recipe's cooking time.
+   - ![63054a0c38f8fa4f4adb4d13db427c0](https://github.com/user-attachments/assets/510c555b-1b7e-4899-94f9-e6dbfe954484)
+
+     
   
 3. **Timer Fragment**:
    - A timer for cooking each recipe, adjustable via a `SeekBar`.
    - The timer displays the recipe name, cook time, and a countdown timer.
    - Start, pause, and reset functionalities are available to control the timer.
    - Cooking times for each recipe are pre-set and passed when starting the timer.
+   - ![0d0d8b9d8283f46483acbe9d711e2a6](https://github.com/user-attachments/assets/34972e65-18e1-44ff-accd-f340c0a03dee)
+
   
 4. **Feedback Fragment**:
    - Users can submit feedback on the recipes or the app.
    - A `Toast` message confirms successful submission.
+   - ![7c51938d6240230a15d865f87388953](https://github.com/user-attachments/assets/1f9418c9-8a0a-47e0-8424-dfb1e27f2918)
+
 
 ## File Structure
 
