@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">A3_Ziyang_Wang</string>
+    <string name="year">Year</string>
+    <string name="title">Title</string>
+    <string name="add_movie">Add Movie</string>
+    <string name="movie_poster">Movie Poster</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="movie_year">Movie Year</string>
+    <string name="imdb_id">IMDb ID</string>
+    <string name="type">Type</string>
+    <string name="poster_url">Poster URL</string>
+    <string name="add_movie_btn">Add Movie</string>
+    <string name="cancel">Cancel</string>
+    <string name="back_button">Back Button</string>
+    <string name="back">Back</string>
+    <string name="movie_name_display">Movie Name: %1$s\n</string>
+    <string name="movie_year_display">Year: %1$d</string>
+    <string name="movie_type_display">Type: %1$s</string>
+    <string name="imdb_id_display">IMDB ID: %1$s</string>
+</resources>
